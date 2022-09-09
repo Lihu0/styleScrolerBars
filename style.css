@@ -1,0 +1,29 @@
+/* firefox */
+
+*{
+    scrollbar-width: thin;
+    /* width of scrollbar auto or thin or none*/
+    scrollbar-color: orange blue;
+    /* first value is color of the scrollbar second value is background it's show only in hover on scroalerbar */
+}
+
+/* other browsers */
+
+*::-webkit-scrollbar {
+    width: 12px;
+    /* width of the scrolarbar */
+}
+
+*::-webkit-scrollbar-track {
+    background: orange;
+    /* color of the scrolarbar */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: blue;
+    /* color of the scrolarbar*/
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid orange;
+    /* creates padding around scroll thumb */
+}
